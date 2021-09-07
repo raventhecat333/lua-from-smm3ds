@@ -1,0 +1,98 @@
+{
+    "ui":
+    {
+        "archive":"rom:/UIX/Layouts/Credits100Mario.arc",
+        "fadeIn":"Default",
+        "fadeOut":"Default",
+        "layouts":
+        [
+            {
+                "name":"Credits",
+                "layer":0,
+                "group":1,
+                "top":"Nwk_StaffCredit_00",
+                "bot":"",
+                "topOrtho":"True",
+                "botOrtho":"True",
+                "MsgBinTop":"LayoutMsg/Network/Nwk_StaffCredit_00.msbt",
+                "topZOffset":1.0,
+                "botZOffset":1.0,
+                "buttons":
+                [
+                    
+                ],
+                "stateAnims":
+                [
+                    
+                ],
+                "animTriggers":
+                [
+                    
+                ],
+                "flow":
+                {
+                    
+                }
+            },
+            {
+                "name":"CreditsEasy",
+                "layer":0,
+                "group":0,
+                "top":"Nwk_StaffCredit_00",
+                "bot":"",
+                "topOrtho":"True",
+                "botOrtho":"True",
+                "MsgBinTop":"LayoutMsg/Network/Nwk_StaffCredit_01.msbt",
+                "topZOffset":1.0,
+                "botZOffset":1.0,
+                "buttons":
+                [
+                    
+                ],
+                "stateAnims":
+                [
+                    
+                ],
+                "animTriggers":
+                [
+                    
+                ],
+                "flow":
+                {
+                    
+                }
+            }
+        ],
+        "groups":
+        {
+            "default":"",
+            "layerCount":1,
+            "groupList":
+            [
+                {
+                    "array":
+                    [
+                        {
+                            "name":"CreditsEasy",
+                            "screens":
+                            [
+                                {
+                                    "name":"CreditsEasy"
+                                }
+                            ]
+                        },
+                        {
+                            "name":"Credits",
+                            "screens":
+                            [
+                                {
+                                    "name":"Credits"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

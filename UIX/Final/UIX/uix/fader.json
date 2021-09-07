@@ -1,0 +1,60 @@
+{
+    "ui":
+    {
+        "archive":"rom:/UIX/Layouts/fader.arc",
+        "fadeIn":"Default",
+        "fadeOut":"Default",
+        "layouts":
+        [
+            {
+                "name":"fader",
+                "layer":0,
+                "group":0,
+                "top":"Cmn_Fade_TOP",
+                "bot":"Cmn_Fade_BOTTOM",
+                "topOrtho":"True",
+                "botOrtho":"True",
+                "topZOffset":1.0,
+                "botZOffset":1.0,
+                "buttons":
+                [
+                    
+                ],
+                "stateAnims":
+                [
+                    
+                ],
+                "animTriggers":
+                [
+                    
+                ],
+                "flow":
+                {
+                    
+                }
+            }
+        ],
+        "groups":
+        {
+            "default":"",
+            "layerCount":1,
+            "groupList":
+            [
+                {
+                    "array":
+                    [
+                        {
+                            "name":"",
+                            "screens":
+                            [
+                                {
+                                    "name":"fader"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

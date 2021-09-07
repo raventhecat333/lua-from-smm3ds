@@ -1,0 +1,61 @@
+{
+    "ui":
+    {
+        "archive":"rom:/UIX/Layouts/LocalWorldClear.arc",
+        "fadeIn":"Default",
+        "fadeOut":"Default",
+        "layouts":
+        [
+            {
+                "name":"LocalWorldClear",
+                "layer":0,
+                "group":0,
+                "top":"LEnd_WorldClearTelop_TOP",
+                "bot":"",
+                "topOrtho":"True",
+                "botOrtho":"True",
+                "MsgBinTop":"LayoutMsg/LEnd/LEnd_WorldClearTelop_00.msbt",
+                "topZOffset":1.0,
+                "botZOffset":1.0,
+                "buttons":
+                [
+                    
+                ],
+                "stateAnims":
+                [
+                    
+                ],
+                "animTriggers":
+                [
+                    
+                ],
+                "flow":
+                {
+                    
+                }
+            }
+        ],
+        "groups":
+        {
+            "default":"",
+            "layerCount":1,
+            "groupList":
+            [
+                {
+                    "array":
+                    [
+                        {
+                            "name":"",
+                            "screens":
+                            [
+                                {
+                                    "name":"LocalWorldClear"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

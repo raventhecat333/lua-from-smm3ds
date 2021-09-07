@@ -1,0 +1,21 @@
+{
+    "ui":
+    {
+        "archive":"rom:/UIX/Layouts/tutDbgMenu.arc",
+        "fadeIn":"Default",
+        "fadeOut":"Default",
+        "layouts":
+        [
+            
+        ],
+        "groups":
+        {
+            "default":"",
+            "layerCount":0,
+            "groupList":
+            [
+                
+            ]
+        }
+    }
+}

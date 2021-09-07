@@ -1,0 +1,99 @@
+{
+    "ui":
+    {
+        "archive":"rom:/UIX/Layouts/Dialog.arc",
+        "fadeIn":"Default",
+        "fadeOut":"Default",
+        "layouts":
+        [
+            {
+                "name":"FileDialog",
+                "layer":0,
+                "group":0,
+                "top":"GamePlay_Bot",
+                "bot":"CourseSelect",
+                "topOrtho":"True",
+                "botOrtho":"True",
+                "topZOffset":1.0,
+                "botZOffset":1.0,
+                "buttons":
+                [
+                    
+                ],
+                "stateAnims":
+                [
+                    
+                ],
+                "animTriggers":
+                [
+                    
+                ],
+                "flow":
+                {
+                    "buttonSwitch":" ",
+                    "screenChange":""
+                }
+            },
+            {
+                "name":"FileDialogFrame",
+                "layer":1,
+                "group":0,
+                "top":"",
+                "bot":"CourseSelectFrame",
+                "topOrtho":"True",
+                "botOrtho":"True",
+                "topZOffset":1.0,
+                "botZOffset":1.0,
+                "buttons":
+                [
+                    
+                ],
+                "stateAnims":
+                [
+                    
+                ],
+                "animTriggers":
+                [
+                    
+                ],
+                "flow":
+                {
+                    "buttonSwitch":" ",
+                    "screenChange":""
+                }
+            }
+        ],
+        "groups":
+        {
+            "default":"Main",
+            "layerCount":1,
+            "groupList":
+            [
+                {
+                    "array":
+                    [
+                        {
+                            "name":"Main",
+                            "screens":
+                            [
+                                {
+                                    "name":"FileDialog"
+                                },
+                                {
+                                    "name":"FileDialogFrame"
+                                }
+                            ]
+                        },
+                        {
+                            "name":"",
+                            "screens":
+                            [
+                                
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

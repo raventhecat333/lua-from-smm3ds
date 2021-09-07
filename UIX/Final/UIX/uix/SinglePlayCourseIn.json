@@ -1,0 +1,61 @@
+{
+    "ui":
+    {
+        "archive":"rom:/UIX/Layouts/SinglePlayCourseIn.arc",
+        "fadeIn":"Default",
+        "fadeOut":"Default",
+        "layouts":
+        [
+            {
+                "name":"play",
+                "layer":0,
+                "group":0,
+                "script":"play.lua",
+                "top":"Play_CourseInSinglePlay_TOP",
+                "bot":"inGame_BOTTOM",
+                "topOrtho":"True",
+                "botOrtho":"True",
+                "topZOffset":1.0,
+                "botZOffset":1.0,
+                "buttons":
+                [
+                    
+                ],
+                "stateAnims":
+                [
+                    
+                ],
+                "animTriggers":
+                [
+                    
+                ],
+                "flow":
+                {
+                    
+                }
+            }
+        ],
+        "groups":
+        {
+            "default":"play",
+            "layerCount":1,
+            "groupList":
+            [
+                {
+                    "array":
+                    [
+                        {
+                            "name":"play",
+                            "screens":
+                            [
+                                {
+                                    "name":"play"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

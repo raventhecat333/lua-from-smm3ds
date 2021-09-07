@@ -1,0 +1,115 @@
+{
+    "ui":
+    {
+        "archive":"rom:/UIX/Layouts/MarioChallengeEndWorldFinish.arc",
+        "fadeIn":"Default",
+        "fadeOut":"Default",
+        "layouts":
+        [
+            {
+                "name":"Conversation",
+                "layer":0,
+                "group":0,
+                "script":"Conversation.lua",
+                "top":"",
+                "bot":"Cmn_Tutorial_dialogNew_BOTTOM",
+                "topOrtho":"True",
+                "botOrtho":"True",
+                "topZOffset":1.0,
+                "botZOffset":1.0,
+                "buttons":
+                [
+                    {
+                        "name":"Parts_00",
+                        "sounds":
+                        [
+                            
+                        ],
+                        "callback":
+                        {
+                            "state":""
+                        }
+                    },
+                    {
+                        "name":"Parts_16",
+                        "sounds":
+                        [
+                            
+                        ],
+                        "callback":
+                        {
+                            "state":""
+                        }
+                    },
+                    {
+                        "name":"YesBtn_00",
+                        "sounds":
+                        [
+                            
+                        ],
+                        "callback":
+                        {
+                            "state":""
+                        }
+                    },
+                    {
+                        "name":"NoBtn_00",
+                        "sounds":
+                        [
+                            
+                        ],
+                        "callback":
+                        {
+                            "state":""
+                        }
+                    },
+                    {
+                        "name":"Comm_00",
+                        "sounds":
+                        [
+                            
+                        ],
+                        "callback":
+                        {
+                            "state":""
+                        }
+                    }
+                ],
+                "stateAnims":
+                [
+                    
+                ],
+                "animTriggers":
+                [
+                    
+                ],
+                "flow":
+                {
+                    
+                }
+            }
+        ],
+        "groups":
+        {
+            "default":"Conversation",
+            "layerCount":1,
+            "groupList":
+            [
+                {
+                    "array":
+                    [
+                        {
+                            "name":"Conversation",
+                            "screens":
+                            [
+                                {
+                                    "name":"Conversation"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

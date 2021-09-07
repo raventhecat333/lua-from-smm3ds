@@ -1,0 +1,75 @@
+{
+    "ui":
+    {
+        "archive":"rom:/UIX/Layouts/GameOver.arc",
+        "fadeIn":"Default",
+        "fadeOut":"Default",
+        "layouts":
+        [
+            {
+                "name":"GameOver",
+                "layer":0,
+                "group":0,
+                "script":"GameOver.lua",
+                "top":"Cmn_GameOver_TOP",
+                "bot":"",
+                "topOrtho":"True",
+                "botOrtho":"True",
+                "MsgBinTop":"LayoutMsg/Cmn/Cmn_GameOver_00.msbt",
+                "topZOffset":1.0,
+                "botZOffset":1.0,
+                "buttons":
+                [
+                    
+                ],
+                "stateAnims":
+                [
+                    {
+                        "state":"Open",
+                        "animsTop":
+                        [
+                            {
+                                "anim":"OneTime",
+                                "delay":0
+                            }
+                        ],
+                        "animsBot":
+                        [
+                            
+                        ]
+                    }
+                ],
+                "animTriggers":
+                [
+                    
+                ],
+                "flow":
+                {
+                    
+                }
+            }
+        ],
+        "groups":
+        {
+            "default":"Main",
+            "layerCount":1,
+            "groupList":
+            [
+                {
+                    "array":
+                    [
+                        {
+                            "name":"Main",
+                            "screens":
+                            [
+                                {
+                                    "name":"GameOver"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

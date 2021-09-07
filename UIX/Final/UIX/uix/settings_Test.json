@@ -1,0 +1,101 @@
+{
+    "ui":
+    {
+        "archive":"rom:/UIX/Layouts/settings_Test.arc",
+        "fadeIn":"Default",
+        "fadeOut":"Default",
+        "layouts":
+        [
+            {
+                "name":"settings222",
+                "layer":0,
+                "group":0,
+                "top":"",
+                "bot":"Cmn_Settings_BOTTOM",
+                "topOrtho":"True",
+                "botOrtho":"True",
+                "topZOffset":1.0,
+                "botZOffset":1.0,
+                "buttons":
+                [
+                    {
+                        "name":"btn_ok",
+                        "sounds":
+                        [
+                            
+                        ],
+                        "callback":
+                        {
+                            "state":""
+                        }
+                    },
+                    {
+                        "name":"btn_controls",
+                        "sounds":
+                        [
+                            
+                        ],
+                        "callback":
+                        {
+                            "state":""
+                        }
+                    },
+                    {
+                        "name":"btn_credits",
+                        "sounds":
+                        [
+                            
+                        ],
+                        "callback":
+                        {
+                            "state":""
+                        }
+                    },
+                    {
+                        "name":"btn_spotPass_OFF",
+                        "sounds":
+                        [
+                            
+                        ],
+                        "callback":
+                        {
+                            "state":""
+                        }
+                    },
+                    {
+                        "name":"btn_spotPass_ON",
+                        "sounds":
+                        [
+                            
+                        ],
+                        "callback":
+                        {
+                            "state":""
+                        }
+                    }
+                ],
+                "stateAnims":
+                [
+                    
+                ],
+                "animTriggers":
+                [
+                    
+                ],
+                "flow":
+                {
+                    
+                }
+            }
+        ],
+        "groups":
+        {
+            "default":"",
+            "layerCount":0,
+            "groupList":
+            [
+                
+            ]
+        }
+    }
+}

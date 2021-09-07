@@ -1,0 +1,9 @@
+rom:/UIX/Final/UIX/Layouts/fader.arc
+7
+FADE In Out
+CIRCLE InCircle OutCircle
+WHITE_CIRCLE InCircleW OutCircleW
+BLOCK InBlock OutBlock
+BLOCK_FADE InBlockFade OutBlockFade
+FADE_BLOCK InFadeBlock OutFadeBlock
+CIRCLE_FADE InCircleFade OutCircleFade

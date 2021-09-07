@@ -1,0 +1,100 @@
+{
+    "ui":
+    {
+        "archive":"rom:/UIX/Layouts/MaryOYamamuraConv.arc",
+        "fadeIn":"Default",
+        "fadeOut":"Default",
+        "layouts":
+        [
+            {
+                "name":"asd",
+                "layer":1,
+                "group":0,
+                "script":"asd.lua",
+                "top":"GamePlaceholder",
+                "bot":"conversation_BOTTOM",
+                "topOrtho":"True",
+                "botOrtho":"True",
+                "topZOffset":1.0,
+                "botZOffset":1.0,
+                "buttons":
+                [
+                    
+                ],
+                "stateAnims":
+                [
+                    
+                ],
+                "animTriggers":
+                [
+                    
+                ],
+                "flow":
+                {
+                    "buttonSwitch":" ",
+                    "screenChange":""
+                }
+            },
+            {
+                "name":"placeholders",
+                "layer":0,
+                "group":0,
+                "top":"GamePlaceholder",
+                "bot":"EditorPlaceholder",
+                "topOrtho":"True",
+                "botOrtho":"True",
+                "topZOffset":1.0,
+                "botZOffset":1.0,
+                "buttons":
+                [
+                    
+                ],
+                "stateAnims":
+                [
+                    
+                ],
+                "animTriggers":
+                [
+                    
+                ],
+                "flow":
+                {
+                    "buttonSwitch":" ",
+                    "screenChange":""
+                }
+            }
+        ],
+        "groups":
+        {
+            "default":"main",
+            "layerCount":1,
+            "groupList":
+            [
+                {
+                    "array":
+                    [
+                        {
+                            "name":"main",
+                            "screens":
+                            [
+                                {
+                                    "name":"asd"
+                                },
+                                {
+                                    "name":"placeholders"
+                                }
+                            ]
+                        },
+                        {
+                            "name":"",
+                            "screens":
+                            [
+                                
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

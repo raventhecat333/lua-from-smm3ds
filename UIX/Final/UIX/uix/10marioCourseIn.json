@@ -1,0 +1,61 @@
+{
+    "ui":
+    {
+        "archive":"rom:/UIX/Layouts/10marioCourseIn.arc",
+        "fadeIn":"FADE",
+        "fadeOut":"FADE",
+        "layouts":
+        [
+            {
+                "name":"play",
+                "layer":0,
+                "group":0,
+                "script":"play.lua",
+                "top":"Play_CourseIn10Mario_TOP",
+                "bot":"GamePlay_Bot",
+                "topOrtho":"True",
+                "botOrtho":"True",
+                "topZOffset":1.0,
+                "botZOffset":1.0,
+                "buttons":
+                [
+                    
+                ],
+                "stateAnims":
+                [
+                    
+                ],
+                "animTriggers":
+                [
+                    
+                ],
+                "flow":
+                {
+                    "screenChange":""
+                }
+            }
+        ],
+        "groups":
+        {
+            "default":"",
+            "layerCount":1,
+            "groupList":
+            [
+                {
+                    "array":
+                    [
+                        {
+                            "name":"",
+                            "screens":
+                            [
+                                {
+                                    "name":"play"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

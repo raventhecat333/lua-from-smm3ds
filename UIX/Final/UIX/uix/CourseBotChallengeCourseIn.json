@@ -1,0 +1,61 @@
+{
+    "ui":
+    {
+        "archive":"rom:/UIX/Layouts/CourseBotChallengeCourseIn.arc",
+        "fadeIn":"FADE",
+        "fadeOut":"FADE",
+        "layouts":
+        [
+            {
+                "name":"play",
+                "layer":0,
+                "group":0,
+                "script":"play.lua",
+                "top":"Play_CourseIn10Mario_TOP",
+                "bot":"inGame_BOTTOM",
+                "topOrtho":"True",
+                "botOrtho":"True",
+                "topZOffset":1.0,
+                "botZOffset":1.0,
+                "buttons":
+                [
+                    
+                ],
+                "stateAnims":
+                [
+                    
+                ],
+                "animTriggers":
+                [
+                    
+                ],
+                "flow":
+                {
+                    
+                }
+            }
+        ],
+        "groups":
+        {
+            "default":"play",
+            "layerCount":1,
+            "groupList":
+            [
+                {
+                    "array":
+                    [
+                        {
+                            "name":"play",
+                            "screens":
+                            [
+                                {
+                                    "name":"play"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

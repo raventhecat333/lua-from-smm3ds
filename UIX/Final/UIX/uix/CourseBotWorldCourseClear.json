@@ -1,0 +1,62 @@
+{
+    "ui":
+    {
+        "archive":"rom:/UIX/Layouts/CourseBotWorldCourseClear.arc",
+        "fadeIn":"Default",
+        "fadeOut":"Default",
+        "layouts":
+        [
+            {
+                "name":"CourseBotWorldCourseClear",
+                "layer":0,
+                "group":0,
+                "script":"CourseBotWorldCourseClear.lua",
+                "top":"LEnd_WorldClearTelop_TOP",
+                "bot":"",
+                "topOrtho":"True",
+                "botOrtho":"True",
+                "MsgBinTop":"LayoutMsg/LEnd/LEnd_WorldClearTelop_00.msbt",
+                "topZOffset":1.0,
+                "botZOffset":1.0,
+                "buttons":
+                [
+                    
+                ],
+                "stateAnims":
+                [
+                    
+                ],
+                "animTriggers":
+                [
+                    
+                ],
+                "flow":
+                {
+                    
+                }
+            }
+        ],
+        "groups":
+        {
+            "default":"Default",
+            "layerCount":1,
+            "groupList":
+            [
+                {
+                    "array":
+                    [
+                        {
+                            "name":"Default",
+                            "screens":
+                            [
+                                {
+                                    "name":"CourseBotWorldCourseClear"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
